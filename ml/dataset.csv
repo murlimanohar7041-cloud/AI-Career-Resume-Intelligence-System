@@ -1,0 +1,307 @@
+
+skills,career
+python pandas numpy statistics machine learning,Data Scientist
+python pandas numpy statistics data visualization,Data Scientist
+python numpy pandas matplotlib seaborn,Data Scientist
+python scikit learn pandas machine learning statistics,Data Scientist
+python pandas numpy scipy machine learning,Data Scientist
+python pandas numpy sql statistics,Data Analyst
+python excel sql powerbi tableau,Data Analyst
+python pandas excel data visualization,Data Analyst
+sql excel powerbi tableau statistics,Data Analyst
+sql python pandas matplotlib analytics,Data Analyst
+python machine learning tensorflow pytorch,Machine Learning Engineer
+python tensorflow keras deep learning,Machine Learning Engineer
+python pytorch tensorflow machine learning,Machine Learning Engineer
+python scikit learn pytorch neural networks,Machine Learning Engineer
+python numpy pandas tensorflow machine learning,Machine Learning Engineer
+python tensorflow pytorch keras neural networks,AI Engineer
+python deep learning tensorflow pytorch nlp,AI Engineer
+python machine learning computer vision tensorflow,AI Engineer
+python transformers pytorch nlp machine learning,AI Engineer
+python neural networks deep learning computer vision,AI Engineer
+python sql spark hadoop etl data pipelines,Data Engineer
+python apache spark sql etl airflow,Data Engineer
+sql python spark kafka data pipelines,Data Engineer
+python pandas airflow aws data engineering,Data Engineer
+sql spark python cloud etl,Data Engineer
+python django flask html css javascript,Python Developer
+python django rest api flask git,Python Developer
+python flask django mysql api development,Python Developer
+python fastapi django python sql,Python Developer
+python flask mongodb javascript html,Python Developer
+java spring sql oop,Java Developer
+java spring boot mysql rest api,Java Developer
+java spring hibernate sql git,Java Developer
+java oop collections spring boot,mJava Developer
+java spring boot microservices mysql,Java Developer
+c++ algorithms data structures oop,Software Developer
+c++ python algorithms data structures,Software Developer
+java python c++ problem solving programming,Software Developer
+c++ oop competitive programming algorithms,Software Developer
+python java git software development,Software Developer
+javascript html css react node express,Full Stack Developer
+javascript node express mongodb react,Full Stack Developer
+react node express mongodb javascript,Full Stack Developer
+html css javascript react node mysql,Full Stack Developer
+javascript react node express sql,Full Stack Developer
+javascript html css react,Frontend Developer
+html css javascript bootstrap react,Frontend Developer
+javascript react redux html css,Frontend Developer
+typescript react javascript css html,Frontend Developer
+react javascript tailwind html css,Frontend Developer
+node express mongodb javascript react,Backend Developer
+node express mongodb api development,Backend Developer
+javascript node express mysql rest api,Backend Developer
+nodejs express postgresql mongodb,Backend Developer
+python flask node express mongodb,Backend Developer
+html css javascript bootstrap web development,Web Developer
+html css javascript wordpress web development,Web Developer
+javascript react html css web development,Web Developer
+php html css javascript mysql,Web Developer
+html css javascript responsive design,Web Developer
+java android kotlin mobile development,Mobile App Developer
+kotlin android firebase mobile development,Mobile App Developer
+flutter dart firebase mobile app development,Mobile App Developer
+react native javascript mobile development,Mobile App Developer
+swift ios mobile development xcode,Mobile App Developer
+docker kubernetes jenkins aws ci cd,DevOps Engineer
+linux docker kubernetes git jenkins,DevOps Engineer
+docker kubernetes terraform ci cd,DevOps Engineer
+aws docker jenkins linux automation,DevOps Engineer
+gitlab docker kubernetes ansible linux,DevOps Engineer
+aws azure cloud computing linux networking,Cloud Engineer
+aws ec2 s3 iam cloud computing,Cloud Engineer
+azure virtual machines networking cloud,Cloud Engineer
+aws lambda docker kubernetes cloud,Cloud Engineer
+gcp cloud computing docker kubernetes,Cloud Engineer
+cybersecurity network security ethical hacking linux,Cybersecurity Analyst
+python cybersecurity penetration testing linux,Cybersecurity Analyst
+siem vulnerability assessment network security,Cybersecurity Analyst
+ethical hacking kali linux security tools,Cybersecurity Analyst
+cybersecurity incident response firewall networking,Cybersecurity Analyst
+sql mysql postgresql database management,Database Developer
+sql oracle mysql database development,Database Developer
+postgresql mysql sql database design,Database Developer
+sql database normalization stored procedures,Database Developer
+mysql postgresql sql database optimization,Database Developer
+sql mysql postgresql database administration,Database Administrator
+oracle sql database backup recovery,Database Administrator
+mysql linux database administration,Database Administrator
+postgresql database security backup sql,Database Administrator
+oracle mysql sql performance tuning,Database Administrator
+sql mysql database queries stored procedures,SQL Developer
+sql oracle joins subqueries database,SQL Developer
+sql postgresql mysql analytics,SQL Developer
+sql database normalization indexing queries,SQL Developer
+sql mysql views triggers stored procedures,SQL Developer
+sql excel business analysis requirements,Business Analyst
+excel sql powerbi business requirements,Business Analyst
+business analysis documentation communication excel,Business Analyst
+requirements analysis sql reporting excel,Business Analyst
+business process analysis powerpoint excel,Business Analyst
+sql powerbi tableau data visualization,Business Intelligence Analyst
+powerbi tableau sql excel business intelligence,Business Intelligence Analyst
+powerbi dax sql data modeling,Business Intelligence Analyst
+tableau sql excel dashboards analytics,Business Intelligence Analyst
+powerbi dax excel reporting data analysis,Business Intelligence Analyst
+figma adobe xd wireframing prototyping,UI/UX Designer
+figma ux research wireframes prototyping,UI/UX Designer
+adobe xd figma user research design,UI/UX Designer
+figma photoshop ui design ux design,UI/UX Designer
+wireframing prototyping figma usability testing,UI/UX Designer
+photoshop illustrator indesign graphic design,Graphic Designer
+adobe photoshop illustrator typography,Graphic Designer
+illustrator photoshop branding logo design,Graphic Designer
+canva photoshop graphic design branding,Graphic Designer
+figma illustrator photoshop visual design,Graphic Designer
+html css figma web design responsive,Web Designer
+figma html css javascript web design,Web Designer
+adobe xd html css responsive design,Web Designer
+wordpress html css web design,Web Designer
+figma typography color theory web design,Web Designer
+seo google analytics keyword research content,Digital Marketing Specialist
+social media seo google ads content marketing,Digital Marketing Specialist
+facebook ads google ads seo marketing,Digital Marketing Specialist
+email marketing social media analytics seo,Digital Marketing Specialist
+content marketing seo google analytics branding,Digital Marketing Specialist
+seo keyword research google search console analytics,SEO Specialist
+seo on page off page link building,SEO Specialist
+keyword research technical seo google analytics,SEO Specialist
+search engine optimization content marketing backlinks,SEO Specialist
+seo wordpress google search console content,SEO Specialist
+recruitment employee relations hr policies,H R
+human resources recruitment payroll employee management,H R
+hr recruitment talent acquisition communication,H R
+employee engagement performance management hr,H R
+human resource management recruitment training,H R
+recruitment interviewing talent acquisition communication,Recruiter
+linkedin recruitment sourcing interviewing hr,Recruiter
+talent acquisition resume screening communication,Recruiter
+recruitment sourcing interviewing candidate management,Recruiter
+hr recruitment onboarding communication,Recruiter
+payroll accounting excel taxation bookkeeping,Accountant
+tally excel accounting taxation bookkeeping,Accountant
+accounting financial statements tds gst excel,Accountant
+tally gst payroll bookkeeping finance,Accountant
+excel tally accounts payable receivable taxation,Accountant
+banking finance customer service loans sales,Banking Executive
+banking operations loans kyc customer service,Banking Executive
+banking finance excel communication relationship management,Banking Executive
+retail banking account opening kyc customer service,Banking Executive
+banking credit analysis financial services sales,Banking Executive
+financial planning investment analysis portfolio management,Financial Advisor
+finance investment mutual funds wealth management,Financial Advisor
+financial planning insurance investment customer service,Financial Advisor
+investment analysis portfolio management finance,Financial Advisor
+wealth management financial planning communication,Financial Advisor
+sales communication negotiation lead generation crm,Sales Executive
+sales customer relationship crm negotiation communication,Sales Executive
+lead generation sales pitching communication crm,Sales Executive
+sales target negotiation customer service business development,Sales Executive
+crm sales prospecting presentation negotiation,Sales Executive
+marketing branding social media content strategy,Marketing Executive
+digital marketing branding market research communication,Marketing Executive
+marketing strategy seo social media analytics,Marketing Executive
+market research branding advertising content marketing,Marketing Executive
+marketing communication campaign management branding,Marketing Executive
+business development sales negotiation communication crm,Business Development Executive
+lead generation business development sales presentation,Business Development Executive
+sales networking negotiation market research,Business Development Executive
+business development client acquisition communication,Business Development Executive
+crm sales partnerships negotiation business growth,Business Development Executive
+customer service communication problem solving crm,Customer Support
+customer support email communication ticketing crm,Customer Support
+customer service troubleshooting communication empathy,Customer Support
+call center customer support crm problem solving,Customer Support
+customer relationship communication complaint handling,Customer Support
+operations management excel communication process improvement,Operations Executive
+operations planning inventory management excel,Operations Executive
+business operations process improvement reporting,Operations Executive
+operations management coordination documentation excel,Operations Executive
+workflow management communication problem solving,Operations Executive
+supply chain inventory logistics procurement,Supply Chain Executive
+supply chain procurement inventory management,Supply Chain Executive
+logistics supply chain warehouse management,Supply Chain Executive
+inventory forecasting procurement logistics,Supply Chain Executive
+supply chain planning operations excel,Supply Chain Executive
+logistics transportation warehouse inventory management,Logistics Executive
+logistics supply chain route planning excel,Logistics Executive
+warehouse management transportation operations,Logistics Executive
+logistics inventory shipping documentation,Logistics Executive
+transportation logistics supply chain coordination,Logistics Executive
+procurement purchasing vendor management negotiation,Procurement Executive
+procurement supplier management sourcing negotiation,Procurement Executive
+purchasing procurement inventory vendor relations,Procurement Executive
+procurement contracts negotiation supply chain,Procurement Executive
+vendor management purchasing excel negotiation,Procurement Executive
+teaching classroom management lesson planning communication,Teacher
+teaching education lesson planning student management,Teacher
+school teaching curriculum classroom communication,Teacher
+education teaching assessment classroom management,Teacher
+teaching subject knowledge communication presentation,Teacher
+teaching research academic writing university education,Professor / Lecturer
+academic research teaching curriculum development,Professor / Lecturer
+university teaching research publications presentation,Professor / Lecturer
+lecturing research academic writing education,Professor / Lecturer
+higher education teaching research communication,Professor / Lecturer
+content writing blogging research seo communication,Content Writer
+content writing wordpress research storytelling,Content Writer
+creative writing seo blogging editing,Content Writer
+article writing research proofreading communication,Content Writer
+content marketing writing seo storytelling,Content Writer
+copywriting advertising content marketing persuasion,Copywriter
+creative writing sales copy branding marketing,Copywriter
+copywriting email marketing advertising persuasion,Copywriter
+ad copywriting social media content branding,Copywriter
+sales writing storytelling marketing communication,Copywriter
+social media marketing content creation instagram facebook,Social Media Manager
+social media strategy content planning analytics,Social Media Manager
+instagram facebook content marketing social media,Social Media Manager
+social media advertising branding analytics,Social Media Manager
+social media management copywriting content creation,Social Media Manager
+event planning communication budgeting vendor management,Event Manager
+event management planning coordination marketing,Event Manager
+events budgeting logistics communication negotiation,Event Manager
+event planning hospitality marketing coordination,Event Manager
+conference management vendor coordination budgeting,Event Manager
+hotel management hospitality customer service operations,Hotel Manager
+hotel operations guest relations team management,Hotel Manager
+hospitality hotel reservation customer service management,Hotel Manager
+hotel management housekeeping food beverage operations,Hotel Manager
+hospitality leadership hotel operations communication,Hotel Manager
+travel planning tourism customer service itinerary,Travel Consultant
+travel consultant tourism communication booking,Travel Consultant
+tourism travel planning customer service geography,Travel Consultant
+travel agency booking itinerary hospitality,Travel Consultant
+travel management customer relations tourism,Travel Consultant
+sales management team leadership crm negotiation,Sales Manager
+sales targets team management business development,Sales Manager
+sales leadership negotiation customer relationship,Sales Manager
+sales strategy crm forecasting communication,Sales Manager
+sales operations team building negotiation,Sales Manager
+marketing management branding strategy team leadership,Marketing Manager
+marketing strategy campaign management branding analytics,Marketing Manager
+digital marketing leadership market research branding,Marketing Manager
+marketing campaigns seo social media management,Marketing Manager
+marketing planning advertising team management,Marketing Manager
+project management planning communication excel coordination,Project Coordinator
+project coordination documentation scheduling communication,Project Coordinator
+project management agile planning reporting,Project Coordinator
+project scheduling stakeholder communication excel,Project Coordinator
+project coordination teamwork risk management,Project Coordinator
+administration office management excel communication,Office Administrator
+office administration documentation scheduling communication,Office Administrator
+office management ms office records management,Office Administrator
+administrative support excel filing communication,Office Administrator
+office operations coordination documentation,Office Administrator
+reception customer service communication scheduling,Receptionist
+receptionist ms office communication appointment scheduling,Receptionist
+front desk customer service telephone communication,Receptionist
+reception hospitality scheduling administration,Receptionist
+customer service reception office management,Receptionist
+administrative support ms office communication scheduling,Administrative Assistant
+office administration excel documentation communication,Administrative Assistant
+administrative assistant filing scheduling email management,Administrative Assistant
+ms office data entry communication office support,Administrative Assistant
+calendar management documentation administrative support,Administrative Assistant
+real estate sales property management negotiation,Real Estate Agent
+real estate property sales communication negotiation,Real Estate Agent
+property management real estate marketing sales,Real Estate Agent
+real estate customer service lead generation negotiation,Real Estate Agent
+property sales crm communication market research,Real Estate Agent
+insurance sales financial planning customer service,Insurance Advisor
+insurance policies risk assessment communication sales,Insurance Advisor
+life insurance financial services customer relationship,Insurance Advisor
+insurance advisor sales negotiation financial planning,Insurance Advisor
+insurance claims customer service policy management,Insurance Advisor
+legal research documentation communication law,Legal Assistant
+legal assistant documentation case management research,Legal Assistant
+law research legal documentation ms office,Legal Assistant
+legal administration case files communication,Legal Assistant
+legal research contracts documentation organization,Legal Assistant
+management training communication leadership business analysis,Management Trainee
+management trainee business operations leadership excel,Management Trainee
+business management communication problem solving leadership,Management Trainee
+management trainee finance marketing operations,Management Trainee
+leadership business strategy communication management,Management Trainee
+entrepreneur business strategy marketing sales finance,Entrepreneur / Business Owner
+entrepreneurship business planning leadership marketing,Entrepreneur / Business Owner
+business owner finance sales operations marketing,Entrepreneur / Business Owner
+startup management business development strategy,Entrepreneur / Business Owner
+business planning customer acquisition leadership,Entrepreneur / Business Owner
+government administration public policy communication leadership,Government Job / Civil Services
+civil services public administration general knowledge leadership,Government Job / Civil Services
+government job public policy administration communication,Government Job / Civil Services
+public administration law economics current affairs,Government Job / Civil Services
+civil services management communication analytical skills,Government Job / Civil Services
+personal assistant scheduling communication ms office organization,Personal Assistant
+personal assistant calendar management email communication,Personal Assistant
+executive assistant office management scheduling,Personal Assistant
+personal assistant travel planning documentation communication,Personal Assistant
+administrative support scheduling confidentiality communication,Personal Assistant
+data entry excel typing ms office accuracy,Data Entry Operator
+data entry excel word computer typing,Data Entry Operator
+data entry computer skills accuracy documentation,Data Entry Operator
+excel data entry spreadsheet management typing,Data Entry Operator
+ms office data entry records management accuracy,Data Entry Operator

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Career & Resume Intelligence</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="login-page">
+
+    <!-- Animated Background -->
+    <div class="animated-background">
+
+        <div class="floating-document document-1">
+            <div class="document-line"></div>
+            <div class="document-line short"></div>
+            <div class="document-line"></div>
+            <div class="document-line medium"></div>
+        </div>
+
+        <div class="floating-document document-2">
+            <div class="document-line"></div>
+            <div class="document-line medium"></div>
+            <div class="document-line short"></div>
+        </div>
+
+        <div class="floating-circle circle-1"></div>
+        <div class="floating-circle circle-2"></div>
+        <div class="floating-circle circle-3"></div>
+
+    </div>
+
+
+    <!-- Main Login Container -->
+
+    <div class="container">
+
+        <!-- Brand -->
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                🚀
+            </div>
+
+            <h1>AI Career</h1>
+
+            <p>
+                Resume Intelligence System
+            </p>
+
+        </div>
+
+
+        <!-- REGISTER -->
+
+        <div id="registerBox" class="form-box">
+
+            <div class="form-heading">
+
+                <span class="heading-icon">👋</span>
+
+                <div>
+                    <h2>Create Account</h2>
+
+                    <p class="form-subtitle">
+                        Start your AI-powered career journey
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label for="registerName">
+                    Full Name
+                </label>
+
+                <input
+                    type="text"
+                    id="registerName"
+                    placeholder="Enter your full name"
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label for="registerEmail">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="registerEmail"
+                    placeholder="Enter your email"
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label for="registerPassword">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="registerPassword"
+                    placeholder="Create a password"
+                >
+
+            </div>
+
+
+            <button
+                class="primary-btn"
+                onclick="registerUser()"
+            >
+                Create Account
+                <span>→</span>
+            </button>
+
+
+            <p class="switch-text">
+
+                Already have an account?
+
+                <span onclick="showLogin()">
+                    Login
+                </span>
+
+            </p>
+
+        </div>
+
+
+        <!-- LOGIN -->
+
+        <div id="loginBox" class="form-box hidden">
+
+            <div class="form-heading">
+
+                <span class="heading-icon">🔐</span>
+
+                <div>
+
+                    <h2>Welcome Back</h2>
+
+                    <p class="form-subtitle">
+                        Continue your career journey
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label for="loginEmail">
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="loginEmail"
+                    placeholder="Enter your email"
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label for="loginPassword">
+                    Password
+                </label>
+
+                <input
+                    type="password"
+                    id="loginPassword"
+                    placeholder="Enter your password"
+                >
+
+            </div>
+
+
+            <button
+                class="primary-btn"
+                onclick="loginUser()"
+            >
+                Login
+                <span>→</span>
+            </button>
+
+
+            <!-- Google Login -->
+
+            <div class="or-divider">
+
+                <span></span>
+
+                <p>OR</p>
+
+                <span></span>
+
+            </div>
+
+
+            <div class="google-login">
+
+                <div id="googleBtn"></div>
+
+            </div>
+
+
+            <p class="switch-text">
+
+                Don't have an account?
+
+                <span onclick="showRegister()">
+                    Create Account
+                </span>
+
+            </p>
+
+        </div>
+
+
+        <!-- Message -->
+
+        <div id="message"></div>
+
+
+        <!-- Footer -->
+
+        <div class="login-footer">
+
+            <span>🔒 Secure</span>
+
+            <span>•</span>
+
+            <span>🤖 AI Powered</span>
+
+            <span>•</span>
+
+            <span>🚀 Career Focused</span>
+
+        </div>
+
+    </div>
+
+
+    <!-- Google Identity Services -->
+
+    <script
+        src="https://accounts.google.com/gsi/client"
+        async
+        defer>
+    </script>
+
+
+    <!-- Your JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

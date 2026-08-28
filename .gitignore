@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Temporary files
+*.tmp

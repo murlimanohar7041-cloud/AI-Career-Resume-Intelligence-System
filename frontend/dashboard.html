@@ -1,0 +1,808 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AI Career Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="dashboard-page">
+
+
+    <!-- Animated Dashboard Background -->
+
+    <div class="dashboard-background">
+
+        <div class="bg-grid"></div>
+
+        <div class="bg-orb orb-one"></div>
+
+        <div class="bg-orb orb-two"></div>
+
+
+        <div class="resume-bg-card resume-bg-one">
+
+            <div class="bg-card-header"></div>
+
+            <div class="bg-card-line"></div>
+
+            <div class="bg-card-line short"></div>
+
+            <div class="bg-card-line"></div>
+
+            <div class="bg-card-chart"></div>
+
+        </div>
+
+
+        <div class="resume-bg-card resume-bg-two">
+
+            <div class="bg-card-header"></div>
+
+            <div class="bg-card-line"></div>
+
+            <div class="bg-card-line medium"></div>
+
+            <div class="bg-card-chart"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Dashboard -->
+
+    <div class="dashboard">
+
+
+        <!-- TOP BAR -->
+
+        <header class="topbar">
+
+            <div class="topbar-brand">
+
+                <div class="topbar-logo">
+                    🚀
+                </div>
+
+                <div>
+
+                    <h1>
+                        AI Career Dashboard
+                    </h1>
+
+                    <p id="welcomeUser">
+                        Welcome!
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="logout-btn"
+                onclick="logout()"
+            >
+                Logout
+            </button>
+
+        </header>
+
+
+
+        <!-- MAIN -->
+
+        <main class="dashboard-content">
+
+
+
+            <!-- HERO -->
+
+            <section class="hero">
+
+                <div class="hero-content">
+
+                    <span class="hero-badge">
+                        🤖 AI POWERED CAREER INTELLIGENCE
+                    </span>
+
+
+                    <h2>
+
+                        Build Your Career
+
+                        <span>
+                            With AI
+                        </span>
+
+                    </h2>
+
+
+                    <p>
+
+                        Analyze your resume, discover career opportunities,
+                        identify skill gaps and create a personalized
+                        learning roadmap.
+
+                    </p>
+
+
+                    <div class="hero-stats">
+
+                        <div>
+
+                            <strong>
+                                AI
+                            </strong>
+
+                            <span>
+                                Resume Analysis
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                5+
+                            </strong>
+
+                            <span>
+                                Career Tools
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                24/7
+                            </strong>
+
+                            <span>
+                                Career Support
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="hero-visual">
+
+                    <div class="ai-orbit">
+
+                        <div class="orbit-ring"></div>
+
+
+                        <div class="orbit-center">
+                            📄
+                        </div>
+
+
+                        <div class="orbit-icon icon-one">
+                            🧠
+                        </div>
+
+
+                        <div class="orbit-icon icon-two">
+                            💼
+                        </div>
+
+
+                        <div class="orbit-icon icon-three">
+                            📊
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- RESUME ANALYZER -->
+
+            <section class="resume-analyzer">
+
+
+                <div class="section-heading">
+
+                    <div class="section-icon">
+                        📄
+                    </div>
+
+
+                    <div>
+
+                        <h2>
+                            Resume Analyzer
+                        </h2>
+
+                        <p>
+
+                            Upload your resume and get an AI-powered
+                            career analysis.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="upload-box">
+
+
+                    <div class="file-input-wrapper">
+
+                        <span class="upload-icon">
+                            📁
+                        </span>
+
+
+                        <div>
+
+                            <strong>
+                                Choose your resume
+                            </strong>
+
+                            <small>
+                                PDF, JPG or PNG
+                            </small>
+
+                        </div>
+
+
+                        <input
+                            type="file"
+                            id="resumeFile"
+                            accept=".pdf,.jpg,.jpeg,.png"
+                        >
+
+                    </div>
+
+
+
+                    <button
+                        class="analyze-btn"
+                        onclick="analyzeResume()"
+                    >
+
+                        Analyze Resume
+                        🚀
+
+                    </button>
+
+                </div>
+
+
+
+                <div id="resumeMessage"></div>
+
+
+
+                <!-- RESULT -->
+
+                <div
+                    id="resumeResult"
+                    class="resume-result hidden"
+                >
+
+
+                    <div class="result-header">
+
+                        <div>
+
+                            <span class="result-label">
+                                AI ANALYSIS
+                            </span>
+
+                            <h3>
+                                📊 Resume Analysis
+                            </h3>
+
+                        </div>
+
+
+                        <div class="result-status">
+                            ✓ Analyzed
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- SCORE -->
+
+                    <div class="score-area">
+
+                        <div class="resume-score">
+
+                            <div class="score-inner">
+
+                                <span id="resumeScore">
+                                    0%
+                                </span>
+
+                                <small>
+                                    Resume Score
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- FIELD -->
+
+                    <div class="analysis-section">
+
+                        <h4>
+                            🎯 Detected Career Field
+                        </h4>
+
+                        <div
+                            id="detectedField"
+                            class="analysis-value"
+                        >
+                            Not detected yet.
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- ML PREDICTED CAREER -->
+
+                    <div class="analysis-section ml-prediction-section">
+
+                        <h4>
+                            🧠 ML Predicted Career
+                        </h4>
+
+                        <div
+                            id="mlPredictedCareer"
+                            class="analysis-value ml-prediction-value"
+                        >
+                            ML prediction will appear here after resume analysis.
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- SUMMARY -->
+
+                    <div class="analysis-section">
+
+                        <h4>
+                            📝 AI Summary
+                        </h4>
+
+                        <div
+                            id="resumeSummary"
+                            class="analysis-text"
+                        >
+                            No summary available yet.
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- SKILLS -->
+
+                    <div class="analysis-section">
+
+                        <h4>
+                            🧠 Detected Skills
+                        </h4>
+
+                        <div
+                            id="detectedSkills"
+                            class="skills-container"
+                        >
+                            No skills detected yet.
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- SKILL GAP -->
+
+                    <div class="analysis-section">
+
+                        <h4>
+                            ⚠️ Skill Gap
+                        </h4>
+
+                        <div
+                            id="missingSkills"
+                            class="skill-gap-container"
+                        >
+                            No skill gaps detected yet.
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- CAREERS -->
+
+                    <div class="analysis-section">
+
+                        <h4>
+                            💼 Recommended Careers
+                        </h4>
+
+                        <div
+                            id="recommendedCareers"
+                            class="career-container"
+                        >
+                            No recommendations yet.
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+
+
+            <!-- FEATURE CARDS -->
+
+            <section class="feature-section">
+
+
+                <div class="section-title">
+
+                    <span>
+                        AI CAREER TOOLS
+                    </span>
+
+                    <h2>
+                        Explore Your Career Intelligence
+                    </h2>
+
+                    <p>
+
+                        Use AI-powered tools to understand your
+                        career path and improve your profile.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="cards">
+
+
+
+                    <!-- CAREER -->
+
+                    <div class="card">
+
+                        <div class="card-icon career-icon">
+                            🎯
+                        </div>
+
+                        <span class="card-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Career Recommendation
+                        </h3>
+
+                        <p>
+
+                            Discover career roles that match
+                            your resume and skills.
+
+                        </p>
+
+                        <button
+                            onclick="showCareerRecommendation()"
+                        >
+
+                            Find Careers
+                            →
+
+                        </button>
+
+                    </div>
+
+
+
+                    <!-- SKILL GAP -->
+
+                    <div class="card">
+
+                        <div class="card-icon skill-icon">
+                            🧠
+                        </div>
+
+                        <span class="card-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Skill Gap Analysis
+                        </h3>
+
+                        <p>
+
+                            Find the important skills you need
+                            to improve for your target career.
+
+                        </p>
+
+                        <button
+                            onclick="showSkillGap()"
+                        >
+
+                            Analyze Skills
+                            →
+
+                        </button>
+
+                    </div>
+
+
+
+                    <!-- JOB MATCHER -->
+
+                    <div class="card">
+
+                        <div class="card-icon job-icon">
+                            💼
+                        </div>
+
+                        <span class="card-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Job Matcher
+                        </h3>
+
+                        <p>
+
+                            Check which career roles currently
+                            match your resume.
+
+                        </p>
+
+                        <button
+                            onclick="showJobMatcher()"
+                        >
+
+                            Match Job
+                            →
+
+                        </button>
+
+                    </div>
+
+
+
+                    <!-- ROADMAP -->
+
+                    <div class="card">
+
+                        <div class="card-icon roadmap-icon">
+                            📚
+                        </div>
+
+                        <span class="card-number">
+                            04
+                        </span>
+
+                        <h3>
+                            Learning Roadmap
+                        </h3>
+
+                        <p>
+
+                            Get a personalized roadmap based
+                            on your detected career field.
+
+                        </p>
+
+                        <button
+                            onclick="showLearningRoadmap()"
+                        >
+
+                            View Roadmap
+                            →
+
+                        </button>
+
+                    </div>
+
+
+
+                    <!-- INTERVIEW -->
+
+                    <div class="card">
+
+                        <div class="card-icon interview-icon">
+                            🎤
+                        </div>
+
+                        <span class="card-number">
+                            05
+                        </span>
+
+                        <h3>
+                            AI Interview
+                        </h3>
+
+                        <p>
+
+                            Practice interview questions based
+                            on your career field.
+
+                        </p>
+
+                        <button
+                            onclick="showAIInterview()"
+                        >
+
+                            Start Interview
+                            →
+
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+
+
+            <!-- DYNAMIC FEATURE RESULT -->
+
+            <section
+                id="featureResult"
+                class="feature-result hidden"
+            >
+
+
+                <div class="feature-result-header">
+
+                    <div>
+
+                        <span>
+                            AI CAREER INTELLIGENCE
+                        </span>
+
+                        <h2 id="featureTitle">
+                            AI Career Feature
+                        </h2>
+
+                    </div>
+
+
+                    <button
+                        class="close-feature"
+                        onclick="closeFeature()"
+                    >
+                        ✕
+                    </button>
+
+                </div>
+
+
+                <div id="featureContent"></div>
+
+            </section>
+
+
+
+            <!-- CAREER READINESS -->
+
+            <section class="readiness">
+
+
+                <div class="readiness-content">
+
+                    <span class="section-label">
+                        YOUR CAREER SCORE
+                    </span>
+
+                    <h2>
+                        Career Readiness
+                    </h2>
+
+                    <p>
+
+                        Your score is calculated from your
+                        resume analysis and detected skills.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="readiness-score">
+
+                    <div class="score">
+
+                        <span id="score">
+                            0%
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- FOOTER -->
+
+            <footer class="dashboard-footer">
+
+                <p>
+                    © 2026 AI Career & Resume Intelligence System
+                </p>
+
+                <span>
+
+                    Built with AI 🤖
+
+                    <span class="footer-heart">
+                        ❤️
+                    </span>
+
+                    by <strong>Murli</strong>
+
+                </span>
+
+            </footer>
+
+
+        </main>
+
+    </div>
+
+
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>
+
