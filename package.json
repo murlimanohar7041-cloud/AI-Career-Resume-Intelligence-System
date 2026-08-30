@@ -1,5 +1,15 @@
 {
   "dependencies": {
-    "serverless-http": "^4.0.0"
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "google-auth-library": "^11.0.2",
+    "mongoose": "^9.9.4",
+    "multer": "^2.3.0",
+    "pdf-parse": "^2.4.5",
+    "pdf-to-img": "^6.3.0",
+    "serverless-http": "^4.0.0",
+    "tesseract.js": "^7.0.0"
   }
 }
