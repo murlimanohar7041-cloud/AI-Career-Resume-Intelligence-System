@@ -8,7 +8,6 @@
     "mongoose": "^9.9.4",
     "multer": "^2.3.0",
     "pdf-parse": "^2.4.5",
-    "pdf-to-img": "^6.3.0",
     "serverless-http": "^4.0.0",
     "tesseract.js": "^7.0.0"
   }

@@ -2,7 +2,6 @@
 const express = require("express");
 const multer = require("multer");
 const { createWorker } = require("tesseract.js");
-const { pdf } = require("pdf-to-img");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const { spawn } = require("child_process");
 const path = require("path");
